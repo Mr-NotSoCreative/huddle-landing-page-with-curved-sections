@@ -1,294 +1,286 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="style.css">
-  
-  <title>Frontend Mentor | Huddle landing page with curved sections</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
 
-  
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
+    <title>Frontend Mentor | Huddle landing page with curved sections</title>
 
-  <!-- Top Header -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Top Header -->
 
+    <header class="top-header">
+      <div class="title-div">
+        <h1 class="visually-hidden">Huddle</h1>
+        <img src="./images/logo.svg" alt="Huddle logo" class="logo" />
+      </div>
+      <a href="#" class="btn header-btn">Try It Free</a>
+    </header>
 
-  <header class="top-header">
-    <div class="title-div">
-      <h1 class="visually-hidden">Huddle</h1>
-      <img src="./images/logo.svg" alt="Huddle logo" class="logo" />
-    </div>
-    <a href="#" class="btn header-btn">Try It Free</a>
-  </header>
+    <!-- Top Header Ends -->
 
+    <!-- Main starts -->
 
+    <main>
+      <article class="top-article">
+        <header class="top-article-header">
+          <h2 class="headings top-title">
+            Build The Community Your Fans Will Love
+          </h2>
+          <p class="desc">
+            Huddle re-imagines the way we build communities. You have a voice
+            but so does your audience. Create connection with your users as you
+            engage in genuine discusson.
+          </p>
+          <a href="#" class="btn pink-button">Get Started For Free</a>
+        </header>
+        <div class="hero-img-div">
+          <picture class="hero-img">
+            <img
+              src="./images/screen-mockups.svg"
+              alt="huddle layout in various devices"
+              class="mockup"
+            />
+          </picture>
 
+          <div class="stats-div">
+            <div class="community-stats">
+              <p class="bold">1.4k+</p>
+              <p class="light">Communities Formed</p>
+            </div>
+            <div class="msg-stats">
+              <p class="bold">2.7m+</p>
+              <p class="light">Messege Sent</p>
+            </div>
+          </div>
+        </div>
+      </article>
 
-  <!-- Top Header Ends -->
+      <!-- Grow together -->
 
-  <!-- Main starts -->
-
-  <main>
-    <article class="top-article">
-      <header class="top-article-header">
-        <h2 class="headings top-title">
-          Build The Community Your Fans Will Love
-        </h2>
-        <p class="desc">
-          Huddle re-imagines the way we build communities. You have a voice
-          but so does your audience. Create connection with your users as you
-          engage in genuine discusson.
-        </p>
-        <a href="#" class="btn pink-button">Get Started For Free</a>
-      </header>
-      <div class="hero-img-div">
-        <picture class="hero-img">
+      <div class="grow-together-div">
+        <picture class="top-wave">
+          <source
+            media="(max-width:24em)"
+            srcset="./images/bg-section-top-mobile-1.svg"
+          />
           <img
-            src="./images/screen-mockups.svg"
-            alt="huddle layout in various devices"
-            class="mockup"
+            src="./images/bg-section-top-desktop-1.svg"
+            alt=""
+            class="top-wave-img"
           />
         </picture>
-
-        <div class="stats-div">
-          <div class="community-stats">
-            <p class="bold">1.4k+</p>
-            <p class="light">Communities Formed</p>
-          </div>
-          <div class="msg-stats">
-            <p class="bold">2.7m+</p>
-            <p class="light">Messege Sent</p>
-          </div>
+        <div class="grow-together-article-div">
+          <article class="grow-togehter-article">
+            <header>
+              <h2 class="headings card-title">Grow Together</h2>
+              <p class="desc">
+                Generate meaningful discussions with your audience and build a
+                strong, loyal community. Think of the insightful conversations
+                you miss out on with a feedback form.
+              </p>
+            </header>
+            <picture class="grow-together-picture">
+              <img
+                src="./images/illustration-grow-together.svg"
+                alt="illustration of growing together"
+                class="grow-together-img"
+              />
+            </picture>
+          </article>
         </div>
+        <picture class="bottom-wave">
+          <source
+            media="(max-width:24em)"
+            srcset="./images/bg-section-bottom-mobile-1.svg"
+          />
+          <img
+            src="./images/bg-section-bottom-desktop-1.svg"
+            alt=""
+            class="bottom-wave-img"
+          />
+        </picture>
       </div>
-    </article>
+      <!-- Grow together Ends -->
 
-    <!-- Grow together -->
+      <!-- Flow Conversation -->
 
-    <div class="grow-together-div">
-      <picture class="top-wave">
-        <source
-          media="(max-width:24em)"
-          srcset="./images/bg-section-top-mobile-1.svg"
-        />
-        <img
-          src="./images/bg-section-top-desktop-1.svg"
-          alt=""
-          class="top-wave-img"
-        />
-      </picture>
-      <div class="grow-together-article-div">
-        <article class="grow-togehter-article">
-          <header>
-            <h2 class="headings card-title">Grow Together</h2>
-            <p class="desc">
-              Generate meaningful discussions with your audience and build a
-              strong, loyal community. Think of the insightful conversations
-              you miss out on with a feedback form.
-            </p>
-          </header>
-          <picture class="grow-together-picture">
-            <img
-              src="./images/illustration-grow-together.svg"
-              alt="illustration of growing together"
-              class="grow-together-img"
-            />
-          </picture>
-        </article>
-      </div>
-      <picture class="bottom-wave">
-        <source
-          media="(max-width:24em)"
-          srcset="./images/bg-section-bottom-mobile-1.svg"
-        />
-        <img
-          src="./images/bg-section-bottom-desktop-1.svg"
-          alt=""
-          class="bottom-wave-img"
-        />
-      </picture>
-    </div>
-    <!-- Grow together Ends -->
-
-    <!-- Flow Conversation -->
-
-    <article class="flow-conversation-article">
-      <header>
-        <h2 class="headings card-title">Flowing Conversations</h2>
-        <p class="desc">
-          You wouldn't paginate a conversation in real life, so why do it
-          online? Our threads have just-in-time loading for a natural flow.
-        </p>
-      </header>
-      <picture class="conversation">
-        <img
-          src="./images/illustration-flowing-conversation.svg"
-          alt="people being in conversation"
-          class="flow-img"
-        />
-      </picture>
-    </article>
-
-    
-    <!-- Flow Conversation Ends -->
-
-    <!-- Users starts -->
-    <div class="users-div">
-      <picture class="top-wave">
-        <source
-          media="(max-width:24em)"
-          srcset="./images/bg-section-top-mobile-2.svg"
-        />
-        <img
-          src="./images/bg-section-top-desktop-2.svg"
-          alt=""
-          class="top-wave-img"
-        />
-      </picture>
-      <div class="users-article-div">
-        <article class="users-article">
-          <header>
-            <h2 class="headings card-title">Your Users</h2>
-            <p class="desc">
-              It takes no time at all to integrate Huddle with your app's
-              authentication solution. This means, once signed in to your app,
-              your users can start chatting immediately.
-            </p>
-          </header>
-          <picture class="grow-together-picture">
-            <img
-              src="./images/illustration-your-users.svg"
-              alt="illustration of users chatting with each other"
-              class="users-img"
-            />
-          </picture>
-        </article>
-      </div>
-      <picture class="bottom-wave">
-        <source
-          media="(max-width:24em)"
-          srcset="./images/bg-section-bottom-mobile-2.svg"
-        />
-        <img
-          src="./images/bg-section-bottom-desktop-2.svg"
-          alt=""
-          class="bottom-wave-img"
-        />
-      </picture>
-    </div>
-    <!-- Users ends -->
-
-  </main>
-
-  <!-- Main Ends -->
-
-  
-
-  <!-- Aside starts -->
-
-  <aside>
-    <h2 class="headings">Ready To Build Your Community?</h2>
-    <a href="#" class="btn pink-button">Get Started For Free</a>
-  </aside>
-
-
-
-
-
-
-
-  <!-- Aside Ends -->
-
-  <!-- footer -->
-
-  <footer>
-    <picture class="top-black-wave">
-      <source
-        media="(max-width:24em)"
-        srcset="./images/bg-footer-top-mobile.svg"
-      />
-      <img
-        src="./images/bg-footer-top-desktop.svg"
-        alt=""
-        class="black-wave-img"
-      />
-    </picture>
-    <div class="footer-content-container">
-      <article class="huddle-address">
-        <h2 class="visually-hidden">Huddle</h2>
-        <img
-          src="./images/logo-white.svg"
-          alt="Huddle logo"
-          class="footer-logo"
-        />
-
-        <address>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae
-          atque repellat iure impedit eos eum sit in assumenda!
-        </address>
-
-        <div class="tel">
-          <img src="./images/icon-phone.svg" alt="phone icon" />
-          <a href="tel:+15431234567">Phone: +1-543-123-4567</a>
-        </div>
-
-        <div class="mail">
-          <img src="./images/icon-email.svg" alt="email icon" />
-          <a href="mailto:example@huddle.com">example@huddle.com</a>
-        </div>
-
-        <div class="social-icon">
-          <a href="#"
-            ><i class="fa-brands fa-square-facebook"></i>
-            <span class="visually-hidden">facebook</span></a
-          >
-          <a href="#"
-            ><i class="fa-brands fa-instagram"></i>
-            <span class="visually-hidden">Instagram</span></a
-          >
-          <a href="#"
-            ><i class="fa-brands fa-twitter-square"></i>
-            <span class="visually-hidden">facebook</span></a
-          >
-        </div>
-      </article>
-
-      <article class="newsletter">
+      <article class="flow-conversation-article">
         <header>
-          <h2 class="headings">NEWSLETTER</h2>
-          <p class="desc news-desc">
-            To recieve tips on how to grow your community, sign up to our
-            weekly newsletter. We'll never send you spam or pass on your email
-            address
+          <h2 class="headings card-title">Flowing Conversations</h2>
+          <p class="desc">
+            You wouldn't paginate a conversation in real life, so why do it
+            online? Our threads have just-in-time loading for a natural flow.
           </p>
         </header>
-        <form action="action.php" method="post">
-          <input type="email" name="email" id="newsletter-email" required />
-          <button type="submit">Subscribe</button>
-        </form>
+        <picture class="conversation">
+          <img
+            src="./images/illustration-flowing-conversation.svg"
+            alt="people being in conversation"
+            class="flow-img"
+          />
+        </picture>
       </article>
 
-      <p class="attribution">
-        Challenge by
-        <a
-          href="https://www.frontendmentor.io/challenges/huddle-landing-page-with-curved-sections-5ca5ecd01e82137ec91a50f2"
-          target="_blank"
-          >Frontend Mentor</a
-        >. Coded by
-        <a href="https://www.frontendmentor.io/profile/Mr-NotSoCreative"
-          >Fahim Hossain</a
-        >.
-      </p>
-    </div>
-  </footer>
- 
- 
-</body>
+      <!-- Flow Conversation Ends -->
+
+      <!-- Users starts -->
+      <div class="users-div">
+        <picture class="top-wave">
+          <source
+            media="(max-width:24em)"
+            srcset="./images/bg-section-top-mobile-2.svg"
+          />
+          <img
+            src="./images/bg-section-top-desktop-2.svg"
+            alt=""
+            class="top-wave-img"
+          />
+        </picture>
+        <div class="users-article-div">
+          <article class="users-article">
+            <header>
+              <h2 class="headings card-title">Your Users</h2>
+              <p class="desc">
+                It takes no time at all to integrate Huddle with your app's
+                authentication solution. This means, once signed in to your app,
+                your users can start chatting immediately.
+              </p>
+            </header>
+            <picture class="grow-together-picture">
+              <img
+                src="./images/illustration-your-users.svg"
+                alt="illustration of users chatting with each other"
+                class="users-img"
+              />
+            </picture>
+          </article>
+        </div>
+        <picture class="bottom-wave">
+          <source
+            media="(max-width:24em)"
+            srcset="./images/bg-section-bottom-mobile-2.svg"
+          />
+          <img
+            src="./images/bg-section-bottom-desktop-2.svg"
+            alt=""
+            class="bottom-wave-img"
+          />
+        </picture>
+      </div>
+      <!-- Users ends -->
+    </main>
+
+    <!-- Main Ends -->
+
+    <!-- Aside starts -->
+
+    <aside>
+      <h2 class="headings">Ready To Build Your Community?</h2>
+      <a href="#" class="btn pink-button">Get Started For Free</a>
+    </aside>
+
+    <!-- Aside Ends -->
+
+    <!-- footer -->
+
+    <footer>
+      <picture class="top-black-wave">
+        <source
+          media="(max-width:24em)"
+          srcset="./images/bg-footer-top-mobile.svg"
+        />
+        <img
+          src="./images/bg-footer-top-desktop.svg"
+          alt=""
+          class="black-wave-img"
+        />
+      </picture>
+      <div class="footer-content-container">
+        <article class="huddle-address">
+          <h2 class="visually-hidden">Huddle</h2>
+          <img
+            src="./images/logo-white.svg"
+            alt="Huddle logo"
+            class="footer-logo"
+          />
+
+          <address>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae
+            atque repellat iure impedit eos eum sit in assumenda!
+          </address>
+
+          <div class="tel">
+            <img src="./images/icon-phone.svg" alt="phone icon" />
+            <a href="tel:+15431234567">Phone: +1-543-123-4567</a>
+          </div>
+
+          <div class="mail">
+            <img src="./images/icon-email.svg" alt="email icon" />
+            <a href="mailto:example@huddle.com">example@huddle.com</a>
+          </div>
+
+          <div class="social-icon">
+            <a href="#"
+              ><i class="fa-brands fa-square-facebook"></i>
+              <span class="visually-hidden">facebook</span></a
+            >
+            <a href="#"
+              ><i class="fa-brands fa-instagram"></i>
+              <span class="visually-hidden">Instagram</span></a
+            >
+            <a href="#"
+              ><i class="fa-brands fa-twitter-square"></i>
+              <span class="visually-hidden">facebook</span></a
+            >
+          </div>
+        </article>
+
+        <article class="newsletter">
+          <header>
+            <h2 class="headings">NEWSLETTER</h2>
+            <p class="desc news-desc">
+              To recieve tips on how to grow your community, sign up to our
+              weekly newsletter. We'll never send you spam or pass on your email
+              address
+            </p>
+          </header>
+          <form action="action.php" method="post">
+            <input type="email" name="email" id="newsletter-email" required />
+            <button type="submit">Subscribe</button>
+          </form>
+        </article>
+
+        <p class="attribution">
+          Challenge by
+          <a
+            href="https://www.frontendmentor.io/challenges/huddle-landing-page-with-curved-sections-5ca5ecd01e82137ec91a50f2"
+            target="_blank"
+            >Frontend Mentor</a
+          >. Coded by
+          <a href="https://www.frontendmentor.io/profile/Mr-NotSoCreative"
+            >Fahim Hossain</a
+          >.
+        </p>
+      </div>
+    </footer>
+  </body>
 </html>
