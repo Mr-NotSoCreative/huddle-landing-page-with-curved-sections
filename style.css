@@ -159,3 +159,42 @@ body {
   display: block;
   width: 100%;
 }
+
+.grow-together-div {
+  margin-bottom: 15rem;
+}
+.grow-together-article-div,
+.users-article-div {
+  background-color: #f6fbff;
+
+  padding: 0 13rem;
+}
+.flow-conversation-article {
+  margin-bottom: 15rem;
+}
+.grow-togehter-article,
+.flow-conversation-article,
+.users-article {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 10rem;
+  align-items: center;
+}
+.top-wave-img,
+.bottom-wave-img,
+.black-wave-img {
+  display: block;
+  width: 100%;
+}
+.grow-together-img,
+.flow-img,
+.users-img {
+  width: 100%;
+}
+
+.card-title {
+  margin-bottom: 1.5rem;
+}
+.flow-conversation-article {
+  padding: 0 13rem;
+}
