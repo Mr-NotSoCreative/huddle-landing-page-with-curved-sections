@@ -297,3 +297,39 @@ button[type="submit"]:hover {
 .mail img {
   margin-right: 1.5rem;
 }
+
+@media screen and (max-width: 55em) {
+  .grow-togehter-article,
+  .flow-conversation-article,
+  .users-article {
+    grid-template-columns: 1fr;
+    gap: 9rem;
+  }
+
+  .grow-togehter-article header,
+  .users-article header {
+    grid-row: 2;
+  }
+  .flow-conversation-article {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
+@media screen and (max-width: 54em) {
+  form {
+    flex-direction: column;
+  }
+  button[type="submit"] {
+    width: 100%;
+  }
+  .hero-img-div {
+    display: grid;
+  }
+  .stats-div {
+    flex-direction: column;
+    justify-content: center;
+    justify-self: center;
+    row-gap: 7rem;
+  }
+}
