@@ -234,7 +234,7 @@ aside h2 {
 footer a {
   color: inherit;
 }
-.newsletter header h2 {
+.newsletter div h2 {
   color: inherit;
   font-weight: 200;
   margin-bottom: 2.5rem;
