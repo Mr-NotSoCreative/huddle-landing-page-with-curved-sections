@@ -198,3 +198,20 @@ body {
 .flow-conversation-article {
   padding: 0 13rem;
 }
+
+.conversation {
+  grid-column: 1;
+  grid-row: 1;
+}
+.flow-conversation-article header {
+  grid-column: 2;
+}
+
+aside {
+  margin-top: 15rem;
+  text-align: center;
+}
+aside h2 {
+  font-size: 3rem;
+  margin-bottom: 3rem;
+}
