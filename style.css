@@ -393,3 +393,17 @@ button[type="submit"]:hover {
     min-width: 10rem;
   }
 }
+
+@media screen and (max-width: 24em) {
+  .top-title {
+    font-size: 2rem;
+  }
+  .grow-together-article-div,
+  .flow-conversation-article,
+  .users-article-div {
+    text-align: center;
+  }
+  .card-title {
+    font-size: 2rem;
+  }
+}
