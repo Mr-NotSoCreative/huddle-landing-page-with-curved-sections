@@ -333,3 +333,29 @@ button[type="submit"]:hover {
     row-gap: 7rem;
   }
 }
+
+
+@media screen and (max-width: 51em) {
+  .top-header {
+    margin-bottom: 10rem;
+  }
+  .top-title {
+    font-size: 3rem;
+  }
+  .hero-img {
+    padding: 0 3rem;
+  }
+  .footer-content-container {
+    padding: 10rem 5rem 5rem 5rem;
+  }
+  input[type="email"] {
+    width: 100%;
+  }
+  form {
+    display: grid;
+  }
+  button[type="submit"] {
+    justify-self: end;
+    width: 33%;
+  }
+}
