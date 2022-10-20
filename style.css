@@ -114,3 +114,28 @@ body {
   .pink-button:hover {
     background-color: hsla(322, 100%, 66%, 0.75);
   }
+
+
+
+  .hero-img {
+    display: block;
+    padding: 0 20rem;
+    margin-bottom: 10rem;
+  }
+  
+  .mockup {
+    width: 100%;
+  }
+  .stats-div {
+    display: flex;
+    justify-content: center;
+    column-gap: 40rem;
+  }
+  .bold {
+    font-size: 7rem;
+    font-weight: 700;
+    color: var(--Very-Dark-Cyan);
+  }
+  .light {
+    color: #686464;
+  }
