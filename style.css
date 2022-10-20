@@ -359,3 +359,37 @@ button[type="submit"]:hover {
     width: 33%;
   }
 }
+
+@media screen and (max-width: 47em) {
+  .footer-content-container {
+    grid-template-columns: 1fr;
+    gap: 7rem;
+  }
+  .newsletter {
+    grid-row: 1;
+  }
+
+  form {
+    gap: 2rem;
+  }
+  address {
+    margin-bottom: 3rem;
+  }
+}
+@media screen and (max-width: 40em) {
+  .grow-together-article-div,
+  .users-article-div,
+  .flow-conversation-article {
+    padding: 0 5rem;
+  }
+  .top-header {
+    padding: 0 3rem;
+  }
+  .logo {
+    width: 50%;
+  }
+  .header-btn {
+    font-size: 1.1rem;
+    min-width: 10rem;
+  }
+}
